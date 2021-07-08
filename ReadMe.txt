@@ -1,12 +1,14 @@
 
 File structure
 1. input file is "t8.shakespeare.txt"
-2. translated file is "t8.shakespeare.translated.txt"
+2. output Files "t8.shakespeare.translated.txt",perfornmance.txt file, Frequency.csv file.
 How to run the program
-1.first check the output file which shoud be empty initially
+1.first check the t8.shakespeare.translated.txt, perfornmance.txt , Frequency.csv which shoud be empty initially.If they are not empty So Delete all the data from all the files 
 2. Now click on run the program
 Output formate:
-1. translated Text is appear in output.txt file
+1. translated Text is appear in t8.shakespeare.translated.txt file
+2.Perfrormance is appear in perfornmance.txt file
+3.How many Time a word is repalced during Translation is appear in Frequency.csv file
 
 
 Total Memory Uses:
