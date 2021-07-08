@@ -36,8 +36,8 @@ for row in reader:
     # print (find_words)
 f1.close()
 #Fetch the Word from t8.shakespeare.txt file
-fout=open("output.txt",'w')
-f2=open("t8.shakespeare.txt",'r+')
+fout=open("t8.shakespeare.translated.txt",'w')
+f2=open("t8.shakespeare.txt",'r')
 uniqueListRepalcedWords={}
 # f2=open("input.txt",'r+')
 reader=f2.readlines()
@@ -69,7 +69,7 @@ with open("frequency.csv", 'a') as f_object:
 f_object.close()
 
 end = time.time()
-perf=open("performance.txt",'a')
+perf=open("performance.txt",'w')
 Time_taken=["Time to process:", (end-start) ,"minutes","0 seconds",]
 perf.write(str(Time_taken )+"\n")
 Memory=["Memory used: 10MB"]
