@@ -1,7 +1,7 @@
 
 File structure
 1. input file is "t8.shakespeare.txt"
-2. translated file is "output.txt"
+2. translated file is "t8.shakespeare.translated.txt"
 How to run the program
 1.first check the output file which shoud be empty initially
 2. Now click on run the program
